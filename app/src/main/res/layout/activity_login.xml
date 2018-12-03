@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fb1bce0f"
+
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="198dp"
+            android:layout_height="186dp"
+            android:layout_gravity="center"
+            android:src="@drawable/xem" />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/edUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:textColorHint="#ffffff"
+            android:hint="Username"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPassword"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textSize="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:hint="Password"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textSize="10pt"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#9396f1"
+            android:text="Login"/>
+        <TextView android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="No account yet? Create one"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="8pt"/>
+    </LinearLayout>
+</ScrollView>

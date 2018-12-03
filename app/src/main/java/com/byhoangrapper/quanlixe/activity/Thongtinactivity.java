@@ -1,13 +1,15 @@
-package com.byhoangrapper.quanlixe;
+package com.byhoangrapper.quanlixe.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class TongthuActivity extends AppCompatActivity {
+import com.byhoangrapper.quanlixe.R;
+
+public class Thongtinactivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tongthu);
+        setContentView(R.layout.activity_thongtin);
     }
 }

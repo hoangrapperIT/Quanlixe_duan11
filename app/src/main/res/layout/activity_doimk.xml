@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ae7cf246"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.DoimkActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="15dp">
+        <Button
+            android:id="@+id/btDoimk"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/doimk" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="10pt"
+            android:textColor="#000618"
+            android:textStyle="bold"
+            android:text="Đổi mật khẩu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <Button
+            android:id="@+id/btDangxuat"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logout" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="10pt"
+            android:textColor="#000618"
+            android:textStyle="bold"
+            android:text="Đăng xuất"/>
+    </LinearLayout>
+</LinearLayout>
